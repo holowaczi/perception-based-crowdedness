@@ -9,7 +9,7 @@ Analysis of crossing-flow pedestrian experiments at seven crossing angles
 
 | File | Language | Role |
 |---|---|---|
-| `compute.jl` | Julia | Compute v, ρ, a, Δθ, δ per agent per frame → CSV |
+| `compute.jl` | Julia | Compute v, ρ, a, $δ_1$, $δ_2$ per agent per frame → CSV |
 | `article_figures.py` | Python | Publication-quality figures (PDF) from the CSVs |
 
 ---
@@ -17,7 +17,7 @@ Analysis of crossing-flow pedestrian experiments at seven crossing angles
 ## Workflow
 
 ```
-1. julia compute_vrho.jl     # produces csv_data/
+1. julia compute.jl     # produces csv_data/
 2. python article_figures.py # produces article_figs/
 ```
 
