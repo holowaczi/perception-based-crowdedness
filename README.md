@@ -1,5 +1,8 @@
 # Pedestrian Dynamics – Analysis Pipeline
 
+Code for "I see you, do you see me? Perception-based crowdedness and behavioral responses in pedestrian dynamics" — FOV-weighted density, velocity, acceleration and directional metrics from crossing pedestrian flow experiments.
+
+
 Analysis of crossing-flow pedestrian experiments at seven crossing angles
 α ∈ {0°, 30°, 60°, 90°, 120°, 150°, 180°}.
 
@@ -191,3 +194,7 @@ numpy, pandas, matplotlib, scipy
 
 Install: `pip install numpy pandas matplotlib scipy`
 
+## Acknowledgements
+
+This research was funded by the National Science Centre (NCN),
+Poland through SONATA (Grant 2022/47/D/HS4/02576).
